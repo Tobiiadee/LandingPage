@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+    /* outline: 1px solid; */
+
+}
+
+
+:root {
+    --background: ;
+
+    --textclr1: #2F4F4F;
+    --textclr2: #A9A9A9;
+    --textff: 'Nunito', sans-serif;
+    --textfw: 600;
+
+    --btnclr1: hsl(171, 66%, 44%);
+    --btnclr2: hsl(233, 100%, 69%);
+
+
+}
+
+
+.img-header {
+    display: block;
+    width: 100%;
+    height: 250px;
+
+    z-index: -2;
+}
+
+.logo {
+    /* position: absolute;
+    top: 60px;
+    left: 130px; */
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: -10rem;
+    margin-bottom: 2rem;
+    
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-family: var(--textff);
+    font-size: ;
+    font-weight: 600;
+    color: var(--textclr1);
+
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.pgh-top {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+
+}
+
+.btn {
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+/* general styling for the buttons */
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 70vw;
+    height: 7vh;
+
+    border-radius: 20px;
+    border: none;
+    outline: none;
+
+    color: #fff;
+    font-weight: 600;
+
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+/* button: download for iOS */
+.btn-left {
+    margin-bottom: 1.5rem;
+    background-color: var(--btnclr1);
+}
+
+.btn-left:hover{
+    background-color: hsl(171, 71%, 29%);
+}
+
+/*button: download for mac*/
+.btn-right {
+    background-color: var(--btnclr2);
+}
+
+.btn-right:hover {
+    background-color: hsl(233, 63%, 46%);
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: var(--textclr1);
+}
+
+/* styling for all P elements */
+
+p {
+    font-family: var(--textff);
+    font-weight: var(--textfw);
+    color: var(--textclr2);
+}
+
+.pgh-two {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* style for desktop image */
+
+.img-desktop {
+    display: block;
+    width: 300px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    color: var(--textclr1);
+}
+
+/* style for p elements under desktop img */
+
+.pgh-flex {
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.h2-two {
+    margin-top: 8rem;
+    color: var(--textclr1);
+}
+
+.pgh-three {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* style for imgdevice */
+.img-device {
+    display: block;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+.h2-text {
+    margin-top: 6rem;
+    color: var(--textclr1);
+}
+
+.pgh-four {
+    text-align: center;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/* svg images 1*/
+
+.img-flex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+}
+
+/* svg images 2 */
+
+.svg-flex {
+    margin-top: 6rem;
+}
+
+.svg-images {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 4rem;
+}
+
+.pgh-five {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.btn1 {
+    margin-bottom: 6rem;
+}
+
+.logo2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2rem;
+
+    width: 50px;
+}
+
+.list {
+    text-align: center;
+    margin: 2rem;
+}
+
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+
+    margin-bottom: 2rem;
+}
+
+.attribution {
+    text-align: center;
+}
+
+.attribution a {
+    text-decoration: none;
+}
+
+.footer {
+   background-color: #F0F8FF;
+   padding-top: 2rem;
+   padding-bottom: 2rem;
+}
+
+
+@media (min-width: 768px) {
+    .logo {
+        all: unset;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: -200px;
+        margin-bottom: 2rem;
+
+        z-index: 999;
+        
+    }
+
+    button {
+        all: unset;
+    
+        width: 200px;
+        height: 7vh;
+    
+        border-radius: 20px;
+        border: none;
+        outline: none;
+    
+        color: #fff;
+        font-weight: 6s00;
+        text-align: center;
+    
+        box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.2);
+        
+    }
+
+    .btn-cls {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 20px;
+        
+    }
+
+    .img-desktop {
+        all: unset;
+        display: inline;
+        width: 350px;
+
+        margin-left: 100px;
+    }
+    
+    h3 {
+        all: unset;
+        display: block;
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        font-size: 18px;
+        
+        font-family: var(--textff);
+        font-size: ;
+        font-weight: 900;
+        color: var(--textclr1);
+
+    }
+
+    .pgh-two {
+        
+        width: 700px;
+        margin-left: 20rem;
+        
+    }
+
+    .pgh-flex {
+        all: unset;
+
+        font-family: var(--textff);
+        font-weight: var(--textfw);
+        color: var(--textclr2);
+        
+    }
+
+    .items {
+        max-width: 400px;
+        
+    }
+
+    .flex-items {
+        margin-top: 4rem;
+        display: flex;
+        flex-direction: row;
+        gap: 10rem;
+
+        justify-content: center;
+        align-content: center;
+    }
+
+    .img-device {
+        width: 400px;
+    }
+
+    .h2-two {
+        margin-top: 3rem;
+    }
+
+    .thebox {
+        display: flex;
+        /* width: 80%; */
+        /* margin-left: 8rem;
+        margin-right: 8rem; */
+        gap: 2rem;
+    }
+
+    .box {
+        text-align: center;
+    }
+
+    .box p {
+        width: 350px;
+    }
+
+    .svg-flex {
+        display: flex;
+    }
+
+    .footer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        place-content: center;
+    
+    }
+
+    .logo2 {
+        grid-column: 1;
+        place-content: center;
+        place-items: center;
+        
+    }
+
+    .list1 {
+        grid-column: 2;
+
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        
+    }
+
+    .list1 .list {
+        width: max-content;
+
+        margin-bottom: -1rem;
+        
+    }
+
+    .img-footer {
+        grid-column: 3;
+
+        align-items: center;
+        justify-content: center;
+        margin-top: -2rem;
+
+        /* margin-bottom: -1rem; */
+    }
+
+    .img-footer img {
+        width: 20px;
+        height: 20px;
+
+        margin-bottom: -4rem;
+
+        place-items: center;
+    }
+
+    .attribution {
+        display: none;
+    }
+
+
+
+
+}
